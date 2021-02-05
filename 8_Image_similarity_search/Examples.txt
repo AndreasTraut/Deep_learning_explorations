@@ -1,0 +1,10 @@
+This is how the ".py" Script has to be run: 
+
+python find_similar_image.py --input_path "../data/caltech101/" --img_url "https://cdn.tischwelt.de/chameleon/mediapool/thumbs/f/36/Kategorie-Bilder-260x160px-Espressotassen_260x160-ID318089-c58b6c841b307dba5112a4e361e63813.jpg" --output_path "./output/output.png" --n_items 30 --show_image 
+
+
+python find_similar_image.py --input_path "../data/caltech101/" --img_url "https://shop.amigoscaffe.com/uploads/cache/general_xlarge/2019/04/15/b9cb5-8a4ac-70c73-7bfd3-a36c1-66990-2d-amigos-ott18-04-jpg.jpeg" --output_path "./output/output2.png" --n_items 20 --show_image 
+
+
+
+
