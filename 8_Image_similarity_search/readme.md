@@ -6,13 +6,13 @@ Datum: 06.08.2020
 
 Ich habe [hier](https://github.com/AndreasTraut/Arbeitsproben/blob/master/Anwendungsf%C3%A4lle%20der%20KI%20in%20der%20Industrie.md) einige ["Anwendungsfälle der künstlichen Intelligenz in der Industrie"](https://github.com/AndreasTraut/Arbeitsproben/blob/master/Anwendungsf%C3%A4lle%20der%20KI%20in%20der%20Industrie.md) beschrieben und dabei das folgende Schaubild verwendet: 
 
- ![](./8_Image_similarity_search/media/KuenstlicheIntelligenz_480px.jpg)
+ ![](./media/KuenstlicheIntelligenz_480px.jpg)
 
 Als Anwendungsfälle der künstlichen Intelligenz (KI) in der Industrie habe ich dabei *Absatzprognosen*, *automatische Bestellungen*, *Produktentwicklung* und die *Qualitätskontrolle* genannt. Die KI sollte dabei **Zusammenhänge** zwischen den Eingangsdaten/dem Rohmaterial und den Ausgangsdaten/dem Endprodukt verstehen und vorhersagen können. Beispielsweise sollte die KI vorhersagen können, was sich an den Ausgangsdaten/dem Endprodukt verändern würde, wenn sich an den Eingangsdaten/dem Rohmaterial etwas verändert hat. 
 
 Ein weiteres Problem, das häufig vorkommt, ist das **Gruppieren von ähnlichen Dingen**. Wir kennen die nützliche Google-Funktion, mit der sich ähnliche Bilder anzeigen lassen. Man gibt einen Begriff (z.B. Espressotasse) ein und bekommt ähnliche Bilder angezeigt: 
 
-![](./8_Image_similarity_search/media/Google_aehnliche_Bilder.jpg)
+![](./media/Google_aehnliche_Bilder.jpg)
 
 Warum ist das interessant? Angenommen wir haben ein Bild, über das wir noch nicht viel wissen und welches wir in eine uns bekannte Gruppierung einordnen möchten. Beispielweise ein Röntgenbild. Oder ein Bild einer Pflanze. Das Gruppieren von ähnlichen Dingen spielt aber auch an vielen anderen Bereichen eine Rolle und muss auch nicht zwingend mit Bildern zu tun haben. Nehmen wir einen Text oder ein Musikstück: auch diese können gruppiert werden. 
 
@@ -26,21 +26,21 @@ Das Ergebnis meiner Arbeit war: ich habe auf über 9000 Bilder (je etwa 300*300 
 
 Danach habe ich ein völlig neues Bild einer Espressotasse aus dem Internet heruntergeladen: 
 
-![](./8_Image_similarity_search/output/testpicture_1.png)
+![](./output/testpicture_1.png)
 
 Dieses Bild habe ich dem Programm gegeben und damit dann ähnliche Bilder aus meiner Bildersammlung suchen lassen. Nach wenigen Sekunden hat mir das Programm dann diese 15 Bilder angezeigt: 
 
-![](./8_Image_similarity_search/output/testpicture_1similar15.png)
+![](./output/testpicture_1similar15.png)
 
 Auch für eine größere Menge (z.B. für diese 63 Bilder) hat das Programm nur wenige Sekunden gebraucht: 
 
-![](./8_Image_similarity_search/output/testpicture_1similar63.png)
+![](./output/testpicture_1similar63.png)
 
 Dasselbe habe ich dann auch für meine Kirchenfenster Bilder getestet: 
 
-![](./8_Image_similarity_search/output/testpicture_4.png)
+![](./output/testpicture_4.png)
 
-![](./8_Image_similarity_search/output/testpicture_4similar.png)
+![](./output/testpicture_4similar.png)
 
 Wer einen kurzen Blick auf die [Programmzeilen](https://github.com/AndreasTraut/Deep_learning_explorations/blob/master/8_Image_similarity_search/Beispiel_aehnliche_Bilder_finden.ipynb) werfen möchte, die hierfür nötig sind, kann das gerne [hier](https://github.com/AndreasTraut/Deep_learning_explorations/blob/master/8_Image_similarity_search/Beispiel_aehnliche_Bilder_finden.ipynb) tun. Keine Angst: es sind wirklich nur ein paar wenige Codezeilen und ich betone das hier aus einem guten Grund: die Technik hinter diesen KI-Algorithmen ist äußerst komplex und umfangreich. <u>Aber</u> die Anwendung ist nicht allzu kompliziert! In diesem Fall könnte ein beliebiger Mitarbeiter diesen Code zum Finden ähnlicher Objekte starten und mit den angezeigten Ergebnissen weiterarbeiten. Es ist nicht notwendig für diesen Mitarbeiter den Programmcode im Detail zu verstehen! Also zögern Sie nicht, sich einen kurzen Eindruck zum [Programmcode](https://github.com/AndreasTraut/Deep_learning_explorations/blob/master/8_Image_similarity_search/Beispiel_aehnliche_Bilder_finden.ipynb) verschaffen.
 
